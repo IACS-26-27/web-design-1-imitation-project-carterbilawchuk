@@ -1,1 +1,81 @@
-/* CSS for your imitation here */
+/* 
+font-family: "Barlow Condensed", sans-serif;
+font-family: "Source Sans 3", sans-serif;
+font-family: "Cormorant Garamond", serif; 
+*/
+
+
+
+
+
+
+
+h1 {
+  color: #333;
+  font-size: 50px;
+  font-variant: small-caps;
+  margin: 0px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+h2 {
+  color: #333;
+  font-size: 60px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px;
+}
+
+h4 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300;
+  margin-bottom: 0.5in;
+}
+
+p {
+  color: #333;
+  margin: 0px;
+  font-family: "Source Sans 3", sans-serif;
+  padding-block: 0.125in;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  width: 8.5in;
+  height: 11in;
+  border-width: 10px;
+  border: solid;
+  padding: 1in;
+  margin: 0.25in;
+  border-color: #333;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25in;
+}
+
+div {
+  outline: 1px solid red;
+}
+
+img {
+  width: 100%;
+  /* margin-block: 0.25in; */
+  height: 5in;
+  object-fit: cover;
+  object-position: center;
+}
+
+.caption {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 1000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
