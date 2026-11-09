@@ -37,10 +37,11 @@ p {
   color: #333;
   margin: 0px;
   font-family: "Source Sans 3", sans-serif;
-  padding-block: 0.125in;
-  font-size: 12px;
-  line-height: 1.5;
+  padding-block: 0.1in;
+  font-size: 15px;
+  line-height: 1.25;
   text-align: justify;
+  letter-spacing: -0.5px;
 }
 
 main {
@@ -58,11 +59,11 @@ main {
   border-color: #333;
   display: flex;
   flex-direction: row;
-  gap: 0.25in;
+  gap: 0.125in;
 }
 
 div {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 img {
@@ -78,4 +79,32 @@ img {
   font-weight: 1000;
   font-size: 14px;
   text-transform: uppercase;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.divider-horizontal {
+  border: 0.75px solid #333;
+  margin: -0.75px;
+  width: 100%;
+  height: 0px;
+  z-index: 1;
+}
+
+.divider-vertical {
+  border: 0.75px solid #333;
+  margin: -0.75px;
+  width: 0px;
+  margin-block: 0.25in;
+  z-index: 1;
+}
+
+.warbler {
+  width: 100%;
+  height: 2.2in;
+  object-fit: cover;
+  object-position: center;
+  margin-top: -0.6in;
+  margin-bottom: -0.125in;
+  z-index: 3;
 }
